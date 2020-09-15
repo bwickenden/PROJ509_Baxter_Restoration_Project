@@ -3,20 +3,20 @@
 This project is to restore the Baxter robot at the University of Plymouth, to be used for research and teaching purposes. The project uses Autodesk Fusion 360 to design and tests a new gripper to repair the end effector of the Baxter robot. A Kinematics model for the Baxter has been produced, which includes both forward and inverse kinematics to be used to control the robot. Both of these systems have been used in MATLAB, with demonstrations being shown in the video folder. A Gazebo 7 simulation of the Baxter Robot was also tested during this project. The test programmes used were provided by Rethink Robots, and was used in their simulation environment. 
 
 
-##MATLAB
+## MATLAB
 All of the MATLAB files that have been used in the project have provided in the MATLAB folder. For all of the simulations, the vars.m and simulation.m files need to ran first. Examples of forwards, inverse kinematics and semaphore signalling are provided. 
 
 ![MATLAB Baxter Model](https://github.com/bwickenden/PROJ509_Baxter_Restoration_Project/blob/master/Pictures/Kinematics/MATLAB_Model.jpg)
 
 
 
-##CAD
+## CAD
 
 Two models for the grippers have been produced for this project. A design for both 3D printed ABS/PLA and for Aluminium has been provided. Each design has been through a sereis fo FEA tests, which concluded that each design (with its respected materials) has a minimum factor of safey above the target goal of 5. The project and stl files have beeen provided for both models. 
 
 ![ABS](https://github.com/bwickenden/PROJ509_Baxter_Restoration_Project/blob/master/Pictures/CAD/ABS/Final.png)
 
-##ROS
+## ROS
 
 Due to Rethink Robotic's workstation and  Gazebo 7 simulation using legacy software, changes has to be made to the setup of the workstation in order to get it working on Ubuntu 16.04 using ROS Kinetic. 
 
