@@ -15,6 +15,7 @@ All of the MATLAB files that have been used in the project have provided in the 
 Two models for the grippers have been produced for this project. A design for both 3D printed ABS/PLA and for Aluminium has been provided. Each design has been through a sereis fo FEA tests, which concluded that each design (with its respected materials) has a minimum factor of safey above the target goal of 5. The project and stl files have beeen provided for both models. 
 
 ![ABS](https://github.com/bwickenden/PROJ509_Baxter_Restoration_Project/blob/master/Pictures/CAD/ABS/Final.png)
+![ALU](https://github.com/bwickenden/PROJ509_Baxter_Restoration_Project/blob/master/Pictures/CAD/Aluminium/Design_V1.png)
 
 ## ROS
 
